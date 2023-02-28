@@ -1,34 +1,33 @@
 ## Envizimo Software Pack
 
-### Create custom Mozila Firefox installer
+### 1. Create custom Mozila Firefox installer
 
-### Create all dpendency software into one click executable file
+### 2. Create all dpendency software into one executable file
 
-### Instalation
+### 3. Installation
 
-- Open Powershell like administrator
-- Go to specific directorete where download necessary files
-- Pаstе command below into PowerShell prompt
+3.1. Open Powershell like administrator
+3.2. Go to specific directorete where download all necessary files e.g your desktop C:\Users\%username%\Desktop
+
+```powershel
+Set-Location $Env:USERPROFILE\Desktop
+```
+
+3.3. Pаstе command below into PowerShell prompt
 
 ```powershel
 Invoke-WebRequest 'https://raw.githubusercontent.com/TheBuggs/Envizimo/main/download.ps1' -OutFile ./download.ps1; .\download.ps1
 ```
 
-- Execute the command
-- Navidate to folder eventis ( in folder exist .\one-click.ps1 file )
-- Execute command below
+3.4. Execute the command
 
-```powershel
- .\one-click.ps1
-```
+3.5. Now you write information for your homepage and bookmark link (Please add https:// before address)
 
-- Now must be open prompt window and now you must be added info
+3.5.1. Add link for your homepage e.g. https://google.bg
+3.5.2. Add link for your envizimo site e.g. https://my.site.tld
 
-  - add link for your homepage e.g. google.bg
-  - add link for your dns record for from Envizimo
+3.6. after that wait to download and generete your custom installer...
 
-- after that wait to download and generete your custom installer...
+You can find your installer into folder "./eventis" with name 'pack.exe'. Install pack.exe like admin into machine - click right mouse button over file and choose "Run as admin" and start process to install all necessery software to your computer.
 
-You can find your installer into folder eventis with name 'pack.exe'. Install pack.exe like admin in machines. Right click over file adn choose "Run as admin".
-
-### Optional
+### Demo
