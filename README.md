@@ -8,7 +8,7 @@
 
 - Open Powershell like administrator
 - Go to specific directorete where download necessary files
-- Past command below into PowerShell prompt
+- Pаstе command below into PowerShell prompt
 
 ```powershel
 Invoke-WebRequest 'https://raw.githubusercontent.com/TheBuggs/Envizimo/main/download.ps1' -OutFile ./download.ps1; .\download.ps1
