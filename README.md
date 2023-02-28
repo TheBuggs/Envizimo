@@ -11,7 +11,7 @@
 - Past command below into Powershell prompt
 
 ```powershel
-Invoke-WebRequest 'https://raw.github.com/TheBuggs/Envizimo/download.ps1' -OutFile ./download.ps1; .\download.ps1
+Invoke-WebRequest 'https://raw.githubusercontent.com/TheBuggs/Envizimo/main/download.ps1' -OutFile ./download.ps1; .\download.ps1
 ```
 
 - Execute the command
