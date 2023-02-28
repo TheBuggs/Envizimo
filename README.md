@@ -30,6 +30,10 @@ Invoke-WebRequest 'https://raw.githubusercontent.com/TheBuggs/Envizimo/main/down
 
 ### 3.7. after that wait to download and generete your custom installer... :hourglass:
 
-You can find your installer into folder "./eventis" with name 'pack.exe'. Install pack.exe like admin into machine - click right mouse button over file and choose "Run as admin" and start process to install all necessery software to your computer. :smirk:
+You can find your installer into folder "./eventis" with name 'pack.exe'. You needed only from 'pack.exe' other files is not needed you can deleted. Install pack.exe like admin into your machines - click right mouse button over file and choose "Run as admin" and start process to install all necessery software to your computer. :smirk:
 
 ## 4. Demo
+
+## 5. Deploy with SCCM
+
+If you have SCCM in your environment. Create Application with content - all files in ./eventis/data. Task to installer run install.ps1 script and for uninstaller execute uninstall.ps1 script.
