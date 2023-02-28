@@ -7,3 +7,5 @@ Start-Sleep 2
 Rename-Item .\Envizimo-main .\eventis
 Start-Sleep 1
 Set-Location .\eventis
+.\one-click.ps1
+Start-Sleep 3

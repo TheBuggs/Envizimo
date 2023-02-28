@@ -123,6 +123,6 @@ if(Test-Path $STORE) {
     Wait-Job $JOBS["7zip.exe"] | Out-Null
     Wait-Job $JOBS["7zSD.Win32.sfx"] | Out-Null
     Start-Sleep 3
-    Read-Host -Prompt "Press any key to finish"
+    # Read-Host -Prompt "Press any key to finish"
     Remove-Item $STORE -Recurse -Force -Verbose | Out-Null
 }
