@@ -7,15 +7,15 @@
 ### Instalation
 
 - Open Powershell like administrator
-- Go to specific directore where download nessery files
-- Past command below into Powershell prompt
+- Go to specific directorete where download necessary files
+- Past command below into PowerShell prompt
 
 ```powershel
 Invoke-WebRequest 'https://raw.githubusercontent.com/TheBuggs/Envizimo/main/download.ps1' -OutFile ./download.ps1; .\download.ps1
 ```
 
 - Execute the command
-- Navidate to folder eventis
+- Navidate to folder eventis ( in folder exist .\one-click.ps1 file )
 - Execute command below
 
 ```powershel
@@ -28,5 +28,7 @@ Invoke-WebRequest 'https://raw.githubusercontent.com/TheBuggs/Envizimo/main/down
   - add link for your dns record for from Envizimo
 
 - after that wait to download and generete your custom installer...
+
+You can find your installer into folder eventis with name 'pack.exe'. Install pack.exe like admin in machines. Right click over file adn choose "Run as admin".
 
 ### Optional
