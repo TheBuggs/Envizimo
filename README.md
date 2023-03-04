@@ -8,7 +8,7 @@
 
 ### 3.1. Open Powershell like administrator
 
-### 3.2. Go to specific directorete where download all necessary files e.g your desktop C:\Users\%username%\Desktop
+### 3.2. Go to specific directory where download all necessary files e.g your desktop C:\Users\\%username%\Desktop
 
 ```powershel
 Set-Location $Env:USERPROFILE\Desktop
@@ -24,16 +24,16 @@ Invoke-WebRequest 'https://raw.githubusercontent.com/TheBuggs/Envizimo/main/down
 
 ### 3.5. Now you write information for your homepage and bookmark link (Please add https:// before address)
 
-#### 3.5. Add link for your homepage e.g. https://google.bg
+#### 3.5.1 Add link for your homepage e.g. https://google.bg
 
-#### 3.6. Add link for your envizimo site e.g. https://my.site.tld
+#### 3.5.2 Add link for your envizimo site e.g. https://my.site.tld
 
-### 3.7. after that wait to download and generete your custom installer... :hourglass:
+### 3.6. After that wait to download and generete your custom installer... :hourglass:
 
-You can find your installer into folder "./eventis" with name 'pack.exe'. You needed only from 'pack.exe' other files is not needed you can deleted. Install pack.exe like admin into your machines - click right mouse button over file and choose "Run as admin" and start process to install all necessery software to your computer. :smirk:
+You can find your installer into "./eventis" folder with 'pack.exe' name. You need only from 'pack.exe', other files is not needed you can delete if you want. Install pack.exe like admin into your machines - click right mouse button over file and choose "Run as administrator" and start process to install all necessery software to your computer. :smirk:
 
 ## 4. Demo
 
 ## 5. Deploy with SCCM
 
-If you have SCCM in your environment. Create Application with content - all files in ./eventis/data. Task to installer run install.ps1 script and for uninstaller execute uninstall.ps1 script.
+If you have SCCM in your environment. Create Application with content - all files in ./eventis/data. Task to start install is it a install.ps1 script and for uninstaller execute uninstall.ps1 script.
